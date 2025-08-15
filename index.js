@@ -16,3 +16,20 @@ let wordsOfWisdom = [
     "The only true wisdom is in knowing you know nothing"
 ]
 console.log("Your words of wisdom are: " + wordsOfWisdom[Math.floor(Math.random()*wordsOfWisdom.length)])
+let future = [
+    "You will fall out of a tree tomorrow",
+    "You will move to Arizona within six months",
+    "You will purchase a large amount of illegal narcotics as part of a massive drug smuggling operation being secretly run by the head of the DEA",
+    "You will meet someone very important to your future",
+    "You will find something you thought lost",
+    "A man with a very large stick is going to hit you with it",
+    "Rain might fall sometime soon. Or not",
+    "You will trip over a rock painted to look like Matt Damon",
+    "You will trip over a rock painted to look like Scott Cawthorn",
+    "A man named Murray will give you three gifts and then you will understand",
+    "You will continue to not be able to find something you found lost",
+    "You will be visited by three spirits who will show you the true meaning of Christmas. Spoiler: it's not generosity or family",
+    "You will be see a great sign in the sky of the future",
+    "You will pelt someone with stones"
+]
+console.log("Here is your prediction: " + future[Math.floor(Math.random()*future.length)])
